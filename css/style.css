@@ -27,7 +27,7 @@ a {
   text-decoration: none;
 }
 
-/* ОСНОВНЫЕ ЗНАЧЕНИЯ */
+/* ========== ОСНОВНЫЕ ЗНАЧЕНИЯ ========== */
 
 :root {
   --text-color: #757575;
@@ -51,7 +51,7 @@ body {
   margin: 0px 0px;
 }
 
-/* ЗНАЧЕНИЯ ХЭДЕРА */
+/* ========== ЗНАЧЕНИЯ ХЭДЕРА ========== */
 
 .container {
   width: 1200px;
@@ -139,7 +139,7 @@ body {
   margin-left: auto;
 }
 
-/* ЗНАЧЕНИЯ КНОПОК */
+/* ========== ЗНАЧЕНИЯ КНОПОК ========== */
 
 .button-primary {
   font-family: inherit;
@@ -184,7 +184,7 @@ button {
 margin-right: 8px;
 }
 
-/* ЗНАЧЕНИЯ ОСНОВНЫХ СЕКЦИЙ */
+/* ========== ЗНАЧЕНИЯ ОСНОВНЫХ СЕКЦИЙ ========== */
 
 .hero {
   font-size: 44px;
@@ -308,7 +308,7 @@ margin-bottom: 10px;
   padding: 20px 24px;
 }
 
-/* ЗНАЧЕНИЯ ФУТЕРА */
+/* ========== ЗНАЧЕНИЯ ФУТЕРА ========== */
 
 .footer-page {
   display: flex;
@@ -346,7 +346,7 @@ margin-bottom: 10px;
   color: var(--accent-color);
 }
 
-/* ЗНАЧЕНИЯ ЭЛЕМЕНТОВ */
+/* ========== ЗНАЧЕНИЯ ЭЛЕМЕНТОВ ========== */
 
 .link-current {
   color: var(--accent-color);
