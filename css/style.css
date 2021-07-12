@@ -317,6 +317,17 @@ padding-top: 30px;
     line-height: 1.87;
 }
 
+.clients {
+    display: flex;
+    justify-content: center;
+    flex-basis: calc((100% - 150px) / 5);
+
+}
+
+.clients-item {
+
+}
+
 .portfolio-nav {
     display: flex;
     justify-content: center;
