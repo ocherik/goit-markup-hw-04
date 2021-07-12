@@ -129,6 +129,7 @@ body {
 }
 
 .contact-item:hover,
+.contact-item:active,
 .contact-item:focus {
   color: var(--accent-color);
 }
@@ -231,6 +232,8 @@ margin-right: 8px;
 margin-left: 30px;
 flex-basis: calc((100% - 120px) / 4);
 }
+
+
 
 .work-title {
   margin-bottom: 50px;
