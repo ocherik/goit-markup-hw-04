@@ -131,6 +131,10 @@ body {
   color: var(--accent-color);
 }
 
+.nav_icon {
+  fill: currentColor;
+}
+
 .contact-nav {
   font-weight: 500;
   font-size: 14px;
@@ -379,7 +383,6 @@ padding-top: 30px;
   background-color: var(--footer-backround);
   padding-top: 60px;
   padding-bottom: 60px;
-
 }
 
 .footer-adress {
