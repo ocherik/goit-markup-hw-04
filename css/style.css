@@ -120,6 +120,8 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  justify-content: center;
 }
 
 .nav-link-contact:not(:last-child) {
@@ -133,6 +135,7 @@ body {
 
 .nav_icon {
   fill: currentColor;
+  margin-right: 10px;
 }
 
 .contact-nav {
@@ -145,9 +148,12 @@ body {
   margin-left: auto;
 }
 
-.email {
-
+.contact-item {
+display: flex;
+align-items: center;
+justify-content: center;
 }
+
 
 /* ========== ЗНАЧЕНИЯ КНОПОК ========== */
 
