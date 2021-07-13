@@ -404,6 +404,15 @@ padding-top: 30px;
   fill: var(--accent-color);
 }
 
+.clients-list-icon {
+  fill: currentColor;
+}
+
+.clients-list-icon:hover,
+.clients-list-icon:focus {
+  color: var(--accent-color);;
+}
+
 .portfolio-nav {
     display: flex;
     justify-content: center;
