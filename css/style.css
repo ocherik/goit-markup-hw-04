@@ -129,7 +129,6 @@ body {
 }
 
 .contact-item:hover,
-.contact-item:active,
 .contact-item:focus {
   color: var(--accent-color);
 }
