@@ -406,6 +406,8 @@ padding-top: 30px;
 }
 
 .portfolio-item {
+  flex-basis: calc(100% / 3 - 30px);
+  width: 370px;
   border-bottom: solid 1px #EEEEEE;
   border-left: solid 1px #EEEEEE;
   border-right: solid 1px #EEEEEE;
