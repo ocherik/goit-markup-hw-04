@@ -317,10 +317,6 @@ margin-right: 8px;
   padding-right: 32px;
 }
 
-.item-img {
-
-}
-
 .name {
 font-style: normal;
 font-weight: 500;
@@ -396,10 +392,6 @@ padding-top: 30px;
     border: 1px solid var(--social-icons);
 }
 
-.clients-list-icon {
-
-}
-
 .portfolio-nav {
     display: flex;
     justify-content: center;
@@ -418,6 +410,7 @@ padding-top: 30px;
   border-left: solid 1px #EEEEEE;
   border-right: solid 1px #EEEEEE;
   margin-top: 30px;
+  margin-left: 30px;
 }
 
 .portfolio-item-text {
