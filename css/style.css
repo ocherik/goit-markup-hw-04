@@ -212,6 +212,9 @@ margin-right: 8px;
   background-color: var(--secondary-background);
   padding-top: 200px;
   padding-bottom: 200px;
+  background-image: linear-gradient(to right, 
+  rgba(47,58,57,0.4), rgba(47,48,58,0.4)),
+  url('../images/index/background-img.png');
 }
 
 .hero-title {
