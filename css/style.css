@@ -111,8 +111,8 @@ body {
   margin-right: 50px;
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.link:hover,
+.link:focus {
   color: var(--accent-color);
 }
 
@@ -349,6 +349,22 @@ padding-top: 30px;
   margin-bottom: 30px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .social-list {
   display: flex;
   padding-bottom: 30px;
@@ -474,10 +490,16 @@ height: 92px;
   padding-bottom: 60px;
 }
 
+.footer-container {
+  display: flex;
+
+}
+
 .footer-adress {
   font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin-right: 70px;
 }
 
 .footer-text-adress {
@@ -493,6 +515,36 @@ height: 92px;
 .footer-contact {
   margin-bottom: 9px;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-social-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-social-link {
+  fill: var(--white-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+ background-color: rgba(255, 255, 255, 0.1)
+}
+
+.footer-social-item:not(:last-child) {
+margin-right: 10px;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  color: var(--accent-color);
+}
+
+.footer-social-icon {
+  width: 20px;
+  height: 20px;
 }
 
 .footer-contact:hover,
@@ -522,6 +574,16 @@ h3.about-title {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 10px;
+}
+
+h3.social-title {
+  color: var(--white-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 a {
