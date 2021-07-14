@@ -539,7 +539,7 @@ margin-right: 10px;
 
 .footer-social-link:hover,
 .footer-social-link:focus {
-  color: var(--accent-color);
+  background-color: var(--accent-color);
 }
 
 .footer-social-icon {
